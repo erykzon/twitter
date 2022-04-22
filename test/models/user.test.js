@@ -8,10 +8,17 @@ describe ("Test para user", () =>{
     })
     test("Requerimeinto 1 :Fechas en atributos de user", () => {
 
-        const user = new User (1,"")
+        const user = new User (1,"erykzon", "Erick","Bio")
         expect(user.dateCreated).not.toBeUndefined()        
         expect(user.lastUpdate).not.toBeUndefined()
     })
 
+    test("Requerimiento 3: Agregando getters", () => {
+        const user = new User (1,"erykzon", "Erick","Bio")
+        expect(user.getUsername).toBe("erykzon")
+                
+
+
+    })
 })
 
