@@ -4,11 +4,14 @@
   "description": "Mi proyecto de Launch X",
   "main": "index.js",
   "scripts": {
-    "test": "jest --env=node"
-  },
-  "jest":{
-    "testEnvironment": "node"
+    "test": "jest --verbose"
   },
   "author": "erykzon",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
