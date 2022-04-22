@@ -7,9 +7,13 @@ class User {
         this.dateCreated = new Date()
         this.lastUpdate = new Date()
     }
-get getUsername(){
-    return this.username
-}
+    get getUsername(){
+        return this.username
+    }
+
+    set setUsername(newUsername){
+    this.username = newUsername
+    }
 
 }
 
