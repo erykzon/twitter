@@ -24,5 +24,8 @@ describe ("Test para user", () =>{
         expect(user.username).toBe("erkz")
 
     })
+    
+
+
 })
 
